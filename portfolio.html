@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rakim Gallego - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 40px 10%;
+            margin: 20px 0;
+        }
+        .projects, .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project, .testimonial {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            flex: 1;
+            min-width: 280px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .project:hover, .testimonial:hover {
+            transform: scale(1.02);
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .skills, .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            padding: 5px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                padding: 15px;
+            }
+            section {
+                padding: 20px 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abdul Rakim Gallego</h1>
+        <p>Web Developer | Designer | Your Profession</p>
+    </header>
+
+    <nav>
+        <a href=>About</a>
+        <a href=>Projects</a>
+        <a href=>Skills</a>
+        <a href=>Testimonials</a>
+        <a href=>Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Abdul Rakim Gallego, Hardworking people are driven by a relentless dedication to their goals, often going above and beyond to achieve excellence. Their perseverance and commitment are evident in their meticulous attention to detail and their willingness to tackle challenges head-on. They inspire others through their tireless effort and determination, proving that success is the result of consistent, focused hard work.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <img src="path/to/project1-image.jpg" alt="INTELLIQUEEZE">
+                <p>For this project will be creating a INTELLIQUEEZE is an challenge to test your critical thinking to improve skill and this app web-based that let's user improve and study exam or quiz this is created to make students easy review their academics.</p>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git & GitHub</li>
+                
+            </ul>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <p>&copy; Portfolio 2024 </p>
+    </footer>
+</body>
+</html>
